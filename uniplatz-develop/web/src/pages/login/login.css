@@ -1,0 +1,56 @@
+body > div, body > div > div, body > div > div > div.login-form {
+    height: 100%;
+}
+
+.hero-image {
+    margin: 0;
+    margin-top: -15px;
+    /* margin-left: -20px; */
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+div.login-form-grid {
+    position: absolute;
+    padding: 50px;
+    width: 450px;
+    height: 500px;
+    right: 72px;
+    z-index: 2;
+}
+
+Input {
+    padding: 50px;
+}
+
+Button {
+
+    background-color: #C62828;
+}
+
+.login-btn {
+    background-color: #C62828;
+}
+
+.hero-text {
+    position: absolute;
+    line-height: 180%;
+    color: #FFFFFF;
+    font-family: 'Roboto-Light';
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 45%;
+    left: 200px;
+}
+
+#pageFooterHome {
+    background-color: #c62828;
+    color: #ffffff;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+  }

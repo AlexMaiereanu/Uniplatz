@@ -1,0 +1,48 @@
+.ui.secondary.pointing.menu {
+  height: 70px;
+  z-index: 2;
+}
+
+#logo {
+  height: 70px;
+  z-index: 2;
+}
+
+.ui.secondary.pointing.menu .item {
+  color: #BDBDBD;
+  height: 70px;
+  z-index: 2;
+}
+
+.ui.secondary.pointing.menu .hover.item {
+  color: green;
+}
+
+.ui.secondary.pointing.menu .active.item {
+  border-bottom-style: none;
+  color: #c62828;
+}
+
+.ui.secondary.pointing.menu .active.item:hover {
+  color: #c62828;
+}
+
+#logout-modal {
+  height: min-content;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.ui.item.dropdown > .text {
+  margin-top: 15px;
+  font-size: 1.05em;
+  vertical-align: middle;
+}
+
+.ui.item.dropdown .menu.transition.visible .item {
+  height: 40px !important;
+}
+
+#logo > img {
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+#footer {
+  margin-top: -40px;
+  background-color: #8E0000;
+  color: white;
+}
+#bullet {
+  margin: auto;
+  padding-top: 30px;
+  width: 50%;
+}
+
+ul {
+  margin: 20px auto;
+  width: 50%;
+  display: inline-block;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+ul li {
+  margin: 20px;
+}
+
+#buttons {
+  text-align: center;
+}
+
+img {
+  display: inline-block;
+  width: 220px;
+  margin: 40px 20px;
+
+}
+#copyright {
+  margin-left: 10%;
+  padding: 20px 0px;
+}
+hr {
+  width: 80%;
+}
+
+.AppStoreButton {
+    height: 50px;
+    width: 150px;
+}
+
+.GooglePlayButton {
+  height: 50px;
+  width: 170px
+}

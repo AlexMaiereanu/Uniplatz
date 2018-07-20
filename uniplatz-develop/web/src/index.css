@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Varela Round';
+  src: local('Varela Round'), url(./assets/fonts/VarelaRound-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Regular';
+  src: local('Roboto Regular'), url(./assets/fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Medium';
+  src: local('Roboto Medium'), url(./assets/fonts/Roboto/Roboto-Medium.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Varela Round', sans-serif;
+}

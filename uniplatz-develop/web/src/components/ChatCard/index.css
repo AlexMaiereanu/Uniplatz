@@ -1,0 +1,78 @@
+.chat-card-container {
+    height: 130px;
+    overflow: hidden;
+    margin: 0px;
+    margin-bottom: -28px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px !important;
+}
+
+.chat-card-container.odd {
+    background-color: #f5f5f5;
+}
+
+.chat-card-container.even {
+    background-color: white;
+}
+
+.chat-card-container.active {
+    border-right: 10px solid #c62828e2;
+    padding-right: 10px;
+}
+
+.chat-card-container {
+    border-left: 10px solid green;
+    padding-left: 10px;
+}
+
+.chat-card-container.seen {
+    border-left: none;
+}
+
+.chat-image-container {
+    height: 120px;
+    width: 120px;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-image-container img {
+    height: 120px;
+    width: 120px;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.chat-detail-container {
+    padding: 5px 10px;
+}
+
+.chat-title {
+    font-size: 1.5em;
+    margin: 0;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+
+.chat-partner {
+    font-size: 0.8em;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.chat-message {
+    font-size: 0.9em;
+    overflow: hidden;
+    margin: 0;
+    margin-bottom: 8px;
+    line-height: 1.2em;
+    height: 2.4em;
+    max-height: 2.4em;
+}
+
+.chat-time {
+    font-size: 0.8em;
+    color: #777;
+}

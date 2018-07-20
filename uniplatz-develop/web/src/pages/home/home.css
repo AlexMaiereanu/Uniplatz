@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "VarelaRound-Regular";
+    src:url("../../assets/fonts/VarelaRound-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src:url("../../assets/fonts/Roboto/Roboto-Light.ttf");
+}
+
+* {
+    font-family: 'VarelaRound-Regular';
+}
+
+.using-roboto {
+    font-family: 'Roboto-Regular'
+}
+
+.container {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1;
+}
+
+#pageFooter {
+    background-color: #c62828;
+    color: #ffffff;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

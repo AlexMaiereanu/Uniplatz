@@ -1,0 +1,67 @@
+.buyDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 100%;
+  overflow: hidden;
+}
+
+#detailImageContainer {
+  flex: 2;
+}
+
+#detailContent {
+  flex: 1;
+  padding: 40px 80px 40px 40px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#detailContent::-webkit-scrollbar {
+  width: 5px;
+}
+
+#detailImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin: 0;
+}
+
+#detailDescription {
+  font-weight: bold;
+}
+
+.detailSection {
+  margin-bottom: 15px; 
+}
+
+.detailSectionContent {
+  margin-bottom: 20px;
+}
+
+#detailPrice {
+  font-size: 60px;
+  color: #c62828;
+}
+
+#priceSup {
+  font-size: 35px;
+  font-weight: normal;
+}
+
+#detailButton {
+  text-align: center;
+}
+
+#detailDescriptionContent {
+  font-size: 15px;
+}
+
+#detailLocation {
+  margin-bottom: 20px;
+}
+
+#detailLocationContent {
+  font-style: italic;
+}

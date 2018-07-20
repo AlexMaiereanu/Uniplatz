@@ -1,0 +1,28 @@
+.termsAndConditions{
+    height: 90%;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+#content{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#content::-webkit-scrollbar{
+    width: 0px;
+}
+
+#headerContent{
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+#textContent {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,21 @@
+.ui.secondary.pointing.menu {
+  height: 70px;
+}
+
+#logo {
+  height: 70px;
+}
+
+.ui.secondary.pointing.menu .item {
+  color: #BDBDBD;
+  height: 70px;
+}
+
+.ui.secondary.pointing.menu .active.item {
+  border-bottom-style: none;
+  color: #8E0000;
+}
+
+.ui.secondary.pointing.menu .active.item:hover {
+  color: #8E0000;
+}

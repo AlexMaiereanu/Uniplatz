@@ -1,0 +1,21 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "import/no-unresolved": "off",
+        "import/extensions": "off",
+        "react/jsx-filename-extension": "off",
+        "react/jsx-indent": "off",
+        "react/jsx-no-undef": "off",
+        "react/jsx-indent-props": "off",
+        "jsx-a11y/anchor-is-valid": "off",
+        "no-console": "off",
+        "react/jsx-closing-bracket-location": "off",
+        "react/jsx-closing-tag-location": "off",
+        "arrow-parens": "off",
+        "function-paren-newline": "off",
+        "indent": ["error", 4]
+    },
+    "env": {
+        "browser": true
+    }
+}

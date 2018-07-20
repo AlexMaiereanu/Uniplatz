@@ -1,0 +1,2 @@
+cp -fv *.js ../native/src/services/ && \
+cp -fv *.js ../web/src/services/

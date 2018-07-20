@@ -1,0 +1,79 @@
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.hero-profile {
+  height: 350px;
+  margin: 0;
+  padding: 0;
+  margin-top: -35px;
+  background-image: url('../../assets/ProfileBackground.png');
+  background-size: cover;
+  background-position: 100% 40%;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0px 15px 50px;
+}
+
+#profile-picture {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+}
+
+#name-container {
+  color: white;
+  margin: 40px 0px 30px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+
+#name-container > p {
+  font-size: 50px;
+  font-family: 'Roboto-Light';
+}
+
+#selling-info-container {
+  height: 140px;
+  background-color: #8e0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px 20px 100px;
+  margin-bottom: 40px;
+}
+
+#selling-info-container > div {
+  margin: 0px 100px 0px 100px;
+}
+
+#post-container {
+  margin: 0px 120px 0px 120px;
+  margin-bottom: 20px;
+}
+
+#post-container > p {
+  color: #d3d3d3;
+  font-size: 20px;
+}
+
+.edit-post-modal {
+  height: 300px;
+  width: 400px !important;
+  text-align: center !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px !important;
+}
+
+.edit-post-modal button {
+  display: block !important;
+  width: 300px;
+  height: 40px;
+  margin: 0 auto 10px auto !important;
+}

@@ -1,0 +1,83 @@
+body > div, body > div > div, body > div > div > div.login-form {
+  height: 100%;
+}
+
+.hero-image {
+  margin: 0;
+  margin-top: -15px;
+  /* margin-left: -20px; */
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+div.login-form-grid {
+  position: absolute;
+  padding: 50px;
+  width: 450px;
+  height: 500px;
+  right: 72px;
+  z-index: 2;
+}
+
+Input {
+  padding: 50px;
+}
+
+Button {
+
+  background-color: #C62828;
+}
+
+.login-btn {
+  background-color: #C62828;
+}
+
+.hero-text {
+  position: absolute;
+  line-height: 180%;
+  color: #FFFFFF;
+  font-family: 'Roboto-Light';
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 45%;
+  left: 200px;
+}
+
+.terms-and-conditions {
+  text-decoration-color: black;
+  text-decoration-line: underline;
+}
+
+#terms-and-conditions {
+  -webkit-box-shadow: 0px 0px 0px 0px #D4D4D5, 0px 0px 0px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 0px #D4D4D5, 0px 0px 0px 0px #D4D4D5;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 0.8em;
+  padding: 0px !important;
+}
+
+.termsAndConditionsModal{
+  height: 90%;
+}
+
+.termsAndConditionsStyle{
+  background-color: '#fff';
+  border-radius: 5;
+  max-width: 500;
+  max-height: 500;
+  margin: '0 auto';
+  padding: 30;
+}
+
+#pageFooterHome {
+  background-color: #c62828;
+  color: #ffffff;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5px;
+}
